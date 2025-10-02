@@ -6,6 +6,7 @@ It is built using Java, Selenium WebDriver, TestNG, Maven, and Allure Reports wi
 The framework ensures scalability, reusability, and maintainability, covering both positive and negative test cases across critical ParaBank functionalities.
 
 🚀 How to Run the Project
+
 1️⃣ Prerequisites
 Install Java JDK 17+
 Install IntelliJ IDEA (Community/Ultimate)
@@ -28,6 +29,7 @@ allure serve allure-results
 This will open a live interactive report in your browser.
 
 🏗️ Framework Overview
+
 Programming Language: Java
 Test Framework: TestNG
 Build Tool: Maven
@@ -42,6 +44,7 @@ Design Pattern: Page Object Model (POM)
 Assertions: TestNG Assert
 
 ✅ Test Scenarios
+
 🔹 Precondition: Account Registration
 Ensures that a valid user account exists before running scenarios.
 Register a new user with valid details.
@@ -96,7 +99,9 @@ Bill pay with empty/invalid details
 Enter negative/invalid amounts in transfers or payments
 
 📊 Reporting
+
 All test executions generate Allure Reports, which provide a clear and interactive view of test results:
+
 
 Step-by-step execution logs for each test case
 Automatic screenshots on failure for debugging
