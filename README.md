@@ -1,12 +1,12 @@
 ParaBank Test Automation Project
 
--- Project Overview
+● Project Overview
 
 This project automates functional testing of the ParaBank Demo Application: https://parabank.parasoft.com.
 It is built using Java, Selenium WebDriver, TestNG, Maven, and Allure Reports with complete Data-Driven Testing (DDT) support.
 The framework ensures scalability, reusability, and maintainability, covering both positive and negative test cases across critical ParaBank functionalities.
 
--- How to Run the Project
+●How to Run the Project
 
 1️⃣ Prerequisites
 Install Java JDK 17+
@@ -29,7 +29,7 @@ allure serve allure-results
 
 This will open a live interactive report in your browser.
 
--- Framework Overview
+● Framework Overview
 
 Programming Language: Java
 Test Framework: TestNG
@@ -44,23 +44,23 @@ TestNG DataProvider
 Design Pattern: Page Object Model (POM)
 Assertions: TestNG Assert
 
--- Test Scenarios
+● Test Scenarios
 
--- Precondition: Account Registration
+● Precondition: Account Registration
 Ensures that a valid user account exists before running scenarios.
 Register a new user with valid details.
 Verify success message:
 “Your account was created successfully. You are now logged in.”
 Logout to prepare for test execution.
 
---Scenario 1: Login Verification
+●Scenario 1: Login Verification
 Objective: Validate login functionality with valid & invalid credentials.
 Steps:
 Enter valid credentials → Validate successful login.
 Enter invalid credentials → Validate error message.
 DDT Applied: Excel with DataProvider
 
---Scenario 2: Open New Account
+●Scenario 2: Open New Account
 Ojective: Verify account creation process (Checking/Savings).
 Steps:
 Navigate to Open Account → Select type + funding account.
@@ -68,7 +68,7 @@ Confirm new account number displayed.
 Verify account appears in Accounts Overview.
 DDT Applied:DataProvider
 
---Scenario 3: Transfer Funds
+●Scenario 3: Transfer Funds
 Objective: Validate fund transfer between accounts.
 Steps:
 Select From & To Accounts + Amount.
@@ -76,7 +76,7 @@ Confirm transfer details.
 Verify updated balances in Accounts Overview.
 DDT Applied: CSV, DataProvider
 
---Scenario 4: Bill Pay
+●Scenario 4: Bill Pay
 Objective: Ensure successful bill payment.
 Steps:
 Enter Payee Details (Name, Address, Account, Amount).
@@ -84,7 +84,7 @@ Validate confirmation page.
 Verify transaction in Accounts Overview.
 DDT Applied:JSON
 
--- Test Coverage
+● Test Coverage
 
 Positive Test Cases
 Register new account
@@ -100,7 +100,7 @@ Transfer with invalid/missing accounts
 Bill pay with empty/invalid details
 Enter negative/invalid amounts in transfers or payments
 
---Reporting
+●Reporting
 
 All test executions generate Allure Reports, which provide a clear and interactive view of test results:
 
