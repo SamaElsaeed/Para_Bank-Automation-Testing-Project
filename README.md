@@ -51,6 +51,7 @@ Register a new user with valid details.
 Verify success message:
 “Your account was created successfully. You are now logged in.”
 Logout to prepare for test execution.
+
 🔹 Scenario 1: Login Verification
 Objective: Validate login functionality with valid & invalid credentials.
 Steps:
