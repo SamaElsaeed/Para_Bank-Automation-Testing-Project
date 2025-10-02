@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" parallel="false">
+    <test name="LoginTest">
+        <classes>
+            <class name="Tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="OpenAccountTest">
+        <classes>
+            <class name="Tests.OpenNewAccountTest"/>
+        </classes>
+    </test>
+    <test name="TransferFundsTest">
+        <classes>
+            <class name="Tests.TransferFundsTest"/>
+        </classes>
+    </test>
+    <test name="BillPayTest">
+        <classes>
+            <class name="Tests.BillPayTest"/>
+        </classes>
+    </test>
+
+</suite>
